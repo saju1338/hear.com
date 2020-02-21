@@ -1,0 +1,20 @@
+.utility_search_icon{
+    width: 20px;
+    position: absolute;
+    top: 20%;
+    left: 1%;
+}
+.text_inside_search_bar{
+    position: absolute;
+    top: 9%;
+    left: 10%
+}
+
+.slds-input[readonly] {
+    background-color: #fff!important;
+    border: 1px solid #dddbda!important;
+}
+
+html {
+    background: none!important;
+}

@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="./styles/salesforce-lightning-design-system.min.css">
+  <link rel="stylesheet" href="./styles/style.css">
+  <title>Hear.com</title>
+</head>
+
+<body>
+  <div class="slds-container--fluid">
+    <div class="slds-grid slds-wrap">
+      <!-- main grid started -->
+      <div class="slds-col slds-size_1-of-12 slds-m-vertical_large"> </div>
+      <div class="slds-col slds-size_10-of-12 slds-m-top_large slds-p-around_medium slds-box"
+        style="background-color: #fafaf9;">
+        <!-- grid coumn for search bar and tables started -->
+        <div class="slds-grid slds-p-right_x-large">
+          <div class="slds-col slds-size_12-of-12">
+            <div class="slds-form-element">
+              <div class="slds-form-element__control slds-input-has-icon slds-input-has-icon_left-right">
+                <svg class="slds-icon slds-input__icon slds-input__icon_left slds-icon-text-default" aria-hidden="true">
+                  <img class="utility_search_icon" src="./images/search.svg">
+                </svg>
+                <input type="text" id="text-input-id-1" readonly="" x class="slds-input" />
+                <span class="slds-pill text_inside_search_bar" role="option" tabindex="0" aria-selected="true">
+                  <!-- text inside search bar started -->
+
+                  <span class="slds-pill__label" title="Salesforce Inc." style="color: #006dcc;">Siemens</span>
+                  <span class="slds-icon_container slds-pill__remove" title="Remove">
+                    <svg class="slds-icon slds-icon_x-small slds-icon-text-default" aria-hidden="true">
+                      <img src="./images/close.svg"></use>
+                    </svg>
+                  </span>
+                </span> <!-- text inside search bar ended -->
+                <button class="slds-button slds-button_icon slds-input__icon slds-input__icon_right" title="Clear">
+                  <svg class="slds-button__icon slds-icon-text-light">
+                    <img src="./images/clear.svg">
+                  </svg>
+                </button>
+              </div>
+            </div>
+            <div class="slds-text-title_bold slds-m-top_large">Select device</div>
+            <!--  Table started -->
+
+            <table aria-multiselectable="true"
+              class="slds-table slds-table_bordered slds-table_fixed-layout slds-table_resizable-cols" role="grid">
+
+              <tr class="slds-line-height_reset">
+
+                <th aria-label="Name" aria-sort="none" class="slds-is-resizable slds-is-sortable" scope="col">
+                  <a class="slds-th__action slds-text-link_reset" href="javascript:void(0);" role="button" tabindex="0">
+                    <div class="slds-grid slds-grid_vertical-align-center slds-has-flexi-truncate">
+                      <span class="slds-truncate" title="Name">Device</span>
+                      <span class="slds-icon_container slds-icon-utility-arrowdown">
+                        <svg class="slds-icon slds-icon-text-default slds-is-sortable__icon " aria-hidden="true">
+                          <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#arrowdown"></use>
+                        </svg>
+                      </span>
+                    </div>
+                  </a>
+                  <div class="slds-resizable">
+                    <input type="range" aria-label="Name column width" class="slds-resizable__input slds-assistive-text"
+                      id="cell-resize-handle-533" max="1000" min="20" tabindex="0" />
+                    <span class="slds-resizable__handle">
+                      <span class="slds-resizable__divider"></span>
+                    </span>
+                  </div>
+                </th>
+                <th aria-label="Account Name" aria-sort="none" class="slds-is-resizable slds-is-sortable" scope="col">
+                  <a class="slds-th__action slds-text-link_reset" href="javascript:void(0);" role="button" tabindex="0">
+                    <div class="slds-grid slds-grid_vertical-align-center slds-has-flexi-truncate">
+                      <span class="slds-truncate" title="Account Name">Level</span>
+                      <span class="slds-icon_container slds-icon-utility-arrowdown">
+                        <svg class="slds-icon slds-icon-text-default slds-is-sortable__icon " aria-hidden="true">
+                          <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#arrowdown"></use>
+                        </svg>
+                      </span>
+                    </div>
+                  </a>
+                  <div class="slds-resizable">
+                    <input type="range" aria-label="Account Name column width"
+                      class="slds-resizable__input slds-assistive-text" id="cell-resize-handle-534" max="1000" min="20"
+                      tabindex="0" />
+                    <span class="slds-resizable__handle">
+                      <span class="slds-resizable__divider"></span>
+                    </span>
+                  </div>
+                </th>
+                <th aria-label="Close Date" aria-sort="none" class="slds-is-resizable slds-is-sortable" scope="col">
+                  <a class="slds-th__action slds-text-link_reset" href="javascript:void(0);" role="button" tabindex="0">
+                    <div class="slds-grid slds-grid_vertical-align-center slds-has-flexi-truncate">
+                      <span class="slds-truncate" title="Close Date">Cont.</span>
+                      <span class="slds-icon_container slds-icon-utility-arrowdown">
+                        <svg class="slds-icon slds-icon-text-default slds-is-sortable__icon " aria-hidden="true">
+                          <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#arrowdown"></use>
+                        </svg>
+                      </span>
+                    </div>
+                  </a>
+                  <div class="slds-resizable">
+                    <input type="range" aria-label="Close Date column width"
+                      class="slds-resizable__input slds-assistive-text" id="cell-resize-handle-535" max="1000" min="20"
+                      tabindex="0" />
+                    <span class="slds-resizable__handle">
+                      <span class="slds-resizable__divider"></span>
+                    </span>
+                  </div>
+                </th>
+                <th aria-label="Stage" aria-sort="none" class="slds-is-resizable slds-is-sortable" scope="col">
+                  <a class="slds-th__action slds-text-link_reset" href="javascript:void(0);" role="button" tabindex="0">
+                    <div class="slds-grid slds-grid_vertical-align-center slds-has-flexi-truncate">
+                      <span class="slds-truncate" title="Stage">Price</span>
+                      <span class="slds-icon_container slds-icon-utility-arrowdown">
+                        <svg class="slds-icon slds-icon-text-default slds-is-sortable__icon " aria-hidden="true">
+                          <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#arrowdown"></use>
+                        </svg>
+                      </span>
+                    </div>
+                  </a>
+                  <div class="slds-resizable">
+                    <input type="range" aria-label="Stage column width"
+                      class="slds-resizable__input slds-assistive-text" id="cell-resize-handle-536" max="1000" min="20"
+                      tabindex="0" />
+                    <span class="slds-resizable__handle">
+                      <span class="slds-resizable__divider"></span>
+                    </span>
+                  </div>
+                </th>
+
+                <th class="" scope="col" style="width:3.25rem">
+                  <div class="slds-truncate slds-assistive-text" title="Actions">Actions</div>
+                </th>
+              </tr>
+
+              <tbody>
+                <tr aria-selected="false" class="slds-hint-parent">
+
+                  <th scope="row">
+                    <div class="slds-truncate" title="Incio 1px CIC">
+                      Incio 1px CIC<br /><span class="slds-text-color_weak slds-text-body_small">Signia/Siemens</span>
+                    </div>
+                  </th>
+                  <td role="gridcell">
+                    <div class="slds-truncate slds-text-color_weak" title="1">1</div>
+                  </td>
+                  <td role="gridcell">
+                    <div class="slds-truncate slds-text-color_weak" title="IdO">IdO</div>
+                  </td>
+                  <td role="gridcell">
+                    <div class="slds-truncate slds-text-color_weak" title="1.999 EUR">1.999 EUR</div>
+                  </td>
+
+
+                  <td role="gridcell">
+                    <label class="slds-checkbox-button slds-checkbox-button_is-disabled" for="example-unique-id-21">
+                      <input type="checkbox" class="slds-assistive-text" id="example-unique-id-21"
+                        value="example-unique-id-21" disabled="" />
+                      <span class="slds-icon_container slds-icon-utility-add slds-current-color"
+                        title="Description of icon when needed">
+                        <svg class="slds-icon slds-icon_x-small" aria-hidden="true">
+                          <img src="./images/add.svg" style="position: relative; right:26%; width:45%">
+                        </svg>
+                        <span class="slds-assistive-text">Add product</span>
+                      </span>
+                    </label>
+                  </td>
+                </tr>
+                <tr aria-selected="false" class="slds-hint-parent">
+
+                  <th scope="row">
+                    <div class="slds-truncate" title="Incio 1px CIC">
+                      Incio 1px CIC some product with...<br /><span class="slds-text-color_weak slds-text-body_small">Signia/Siemens</span>
+                    </div>
+                  </th>
+                  <td role="gridcell">
+                    <div class="slds-truncate slds-text-color_weak" title="1">2</div>
+                  </td>
+                  <td role="gridcell">
+                    <div class="slds-truncate slds-text-color_weak" title="IdO">IdO</div>
+                  </td>
+                  <td role="gridcell">
+                    <div class="slds-truncate slds-text-color_weak" title="1.999 EUR">1.999 EUR</div>
+                  </td>
+
+
+                  <td role="gridcell">
+                    <label class="slds-checkbox-button slds-checkbox-button_is-disabled" for="example-unique-id-21">
+                      <input type="checkbox" class="slds-assistive-text" id="example-unique-id-21"
+                        value="example-unique-id-21" disabled="" />
+                      <span class="slds-icon_container slds-icon-utility-add slds-current-color"
+                        title="Description of icon when needed">
+                        <svg class="slds-icon slds-icon_x-small" aria-hidden="true">
+                          <img src="./images/add.svg" style="position: relative; right:26%; width:45%">
+                        </svg>
+                        <span class="slds-assistive-text">Add product</span>
+                      </span>
+                    </label>
+                  </td>
+                </tr>
+                <tr aria-selected="false" class="slds-hint-parent">
+
+                  <th scope="row">
+                    <div class="slds-truncate" title="Incio 1px CIC">
+                      Incio 1px CIC<br /><span class="slds-text-color_weak slds-text-body_small">Signia/Siemens</span>
+                    </div>
+                  </th>
+                  <td role="gridcell">
+                    <div class="slds-truncate slds-text-color_weak" title="1">3</div>
+                  </td>
+                  <td role="gridcell">
+                    <div class="slds-truncate slds-text-color_weak" title="IdO">IdO</div>
+                  </td>
+                  <td role="gridcell">
+                    <div class="slds-truncate slds-text-color_weak" title="1.999 EUR">1.999 EUR</div>
+                  </td>
+
+                  <td role="gridcell">
+                    <label class="slds-checkbox-button slds-checkbox-button_is-disabled" for="example-unique-id-21">
+                      <input type="checkbox" class="slds-assistive-text" id="example-unique-id-21"
+                        value="example-unique-id-21" disabled="" />
+                      <span class="slds-icon_container slds-icon-utility-add slds-current-color"
+                        title="Description of icon when needed">
+                        <svg class="slds-icon slds-icon_x-small" aria-hidden="true">
+                          <img src="./images/add.svg" style="position: relative; right:26%; width:45%">
+                        </svg>
+                        <span class="slds-assistive-text">Add product</span>
+                      </span>
+                    </label>
+                  </td>
+                </tr>
+
+                <tr aria-selected="false" class="slds-hint-parent">
+
+                  <th scope="row">
+                    <div class="slds-truncate" title="Incio 1px CIC">
+                      Incio 2px CIC<br /><span class="slds-text-color_weak slds-text-body_small">Signia/Siemens</span>
+                    </div>
+                  </th>
+                  <td role="gridcell">
+                    <div class="slds-truncate slds-text-color_weak" title="1">1</div>
+                  </td>
+                  <td role="gridcell">
+                    <div class="slds-truncate slds-text-color_weak" title="IdO">IdO</div>
+                  </td>
+                  <td role="gridcell">
+                    <div class="slds-truncate slds-text-color_weak" title="1.999 EUR">1.999 EUR</div>
+                  </td>
+
+                  <td role="gridcell">
+                    <label class="slds-checkbox-button slds-checkbox-button_is-disabled" for="example-unique-id-21">
+                      <input type="checkbox" class="slds-assistive-text" id="example-unique-id-21"
+                        value="example-unique-id-21" disabled="" />
+                      <span class="slds-icon_container slds-icon-utility-add slds-current-color"
+                        title="Description of icon when needed">
+                        <svg class="slds-icon slds-icon_x-small" aria-hidden="true">
+                          <img src="./images/add.svg" style="position: relative; right:26%; width:45%">
+                        </svg>
+                        <span class="slds-assistive-text">Add product</span>
+                      </span>
+                    </label>
+                  </td>
+                </tr>
+
+              </tbody>
+            </table>
+
+            <!-- Table Ended -->
+
+            <div class="slds-text-align_center slds-m-vertical_medium"><a>view more</a></div>
+          </div>
+
+          <div class="slds-col slds-size_1-of-12 slds-m-vertical_large slds-m-left_small">
+            <!-- grid column for verticle bar started -->
+            <div class="slds-progress slds-progress_vertical">
+              <ol class="slds-progress__list">
+
+                <li class="slds-progress__item slds-is-active">
+                  <div class="slds-progress__marker">
+                  </div>
+                </li>
+                <li class="slds-progress__item" style="height: 18pc;">
+                  <div class="slds-progress__marker"></div>
+                </li>
+
+                <li class="slds-progress__item">
+                  <div class="slds-progress__marker"></div>
+                </li>
+              </ol>
+              <div aria-valuemin="0" aria-valuemax="100" aria-valuenow="25" role="progressbar">
+                <span class="slds-assistive-text">Progress: 25%</span>
+              </div>
+            </div>
+          </div> <!-- grid column for verticle bar ended -->
+
+        </div><!-- grid coumn for search bar and tables ended -->
+      </div>
+
+    </div> <!-- main grid ended -->
+    <div class="slds-grid slds-wrap slds-m-top_large">
+      <div class="slds-col slds-size_1-of-12"></div>
+      <div class="slds-col slds-size_1-of-12"></div>
+      <button class="slds-col slds-size_4-of-12 slds-button slds-button_neutral">Back</button>
+      <button class="slds-col slds-size_4-of-12 slds-button slds-button_destructive" disabled="">Next</button>
+    </div>
+  </div>
+</body>
+</html>
